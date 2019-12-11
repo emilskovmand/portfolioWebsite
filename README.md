@@ -1,7 +1,7 @@
 # PortfolioWebsite
 Portfolio website, filled with motion and interactive design.
 
-Website is made with the idea of showing off my projects online, with a good looking design.
+Website is made with the idea of showing off my projects online, with a good looking design while showing parts of my developer skills.
 
 ### _Todo-list_
 - [ ] Responsive design
