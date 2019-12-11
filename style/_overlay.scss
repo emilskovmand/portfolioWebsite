@@ -1,0 +1,31 @@
+#Overlay {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+    height: 5vh;
+    margin-right: 3vw;
+    margin-bottom: 4vh;
+    z-index: 20;
+    >* {
+        float: left;
+        margin-left: 20%;
+        p {
+            font-size: .94rem;
+            color: $fontcolor;
+            cursor: pointer;
+            opacity: .8;
+            transition: all .25s ease;
+            text-shadow: -1px 0px .5px $fontcolor;
+            &:hover {
+                color: #0f110f;
+                text-decoration-line: underline;
+                opacity: 1;
+            }
+            &.active {
+                color: #0f110f;
+                opacity: 1;
+            }
+        }
+    }
+}

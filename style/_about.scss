@@ -1,0 +1,84 @@
+.aboutcontainer {
+    height: 65vh;
+    width: 80%;
+    margin-bottom: 7vh;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    >.portraitWrapper {
+        width: 56%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        float: left;
+
+        >.portrait {
+            background-image: url(../other/image/portrait.jpg);
+            width: 77%;
+            height: 80%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #070606;
+            filter: grayscale(90%) sepia(50%) opacity(1.2);
+        }
+    }
+
+    >.letterWrapper {
+        width: 44%;
+        height: 100%;
+        float: left;
+        background-color: #fafafa44;
+        box-shadow: 18px 10px 1.3rem .3rem $panelborder;
+
+        >.dateContainer {
+            height: 40%;
+            width: 100%;
+            position: relative;
+
+            >.daysContainer {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 50%;
+                width: 78%;
+                background-color: #0f0e0ea1;
+
+                >#DateCounter {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    font-size: 200%;
+                    color: #fafafa;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                    text-shadow: 2px 2px 0 $fontcolor;
+
+                    span {
+                        margin-left: .63rem;
+                        font-size: 64%;
+                        margin-top: 3px;
+                    }
+                }
+            }
+        }
+
+        >.listingsContainer {
+            position: relative;
+            height: 60%;
+            width: 100%;
+            padding: 2px 30px;
+            font-weight: 600;
+            h2 {
+                text-emphasis: none;
+                text-anchor: middle;
+            }
+            #regard {
+                color: #e81d1d;
+            }
+        }
+    }
+}
