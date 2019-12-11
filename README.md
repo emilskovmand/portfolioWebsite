@@ -10,5 +10,5 @@ Portfolio website, filled with motion and interactive design.
 - [x] Footer
 - [x] Contact form
 - [ ] Implement PHPMailer
-
+- [x] JavaScript languageSwitcher
 
