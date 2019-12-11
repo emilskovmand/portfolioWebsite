@@ -1,7 +1,7 @@
 # PortfolioWebsite
 Portfolio website, filled with motion and interactive design.
 
-###_ Todo-list
+### _Todo-list_
 - [ ] Responsive design
 - [x] Interactive design
 - [x] Motion background
