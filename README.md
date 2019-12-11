@@ -13,4 +13,4 @@ Website is made with the idea of showing off my projects online, with a good loo
 - [x] Contact form
 - [ ] Implement PHPMailer
 - [x] JavaScript languageSwitcher
-- [ ] Get domain ```! *(Current)*```
+- [ ] Get domain ####*(Current)*
